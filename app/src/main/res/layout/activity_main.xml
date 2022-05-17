@@ -10,11 +10,13 @@
 
     <EditText
         android:id="@+id/edit1"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
     <EditText
         android:id="@+id/edit2"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
@@ -58,7 +60,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4"/>
-
+        </TableRow>
+        <TableRow>
             <Button
                 android:id="@+id/btn5"
                 android:layout_weight="1"
@@ -102,7 +105,7 @@
         android:layout_marginBottom="20dp"
         android:text="더하기"/>
     <Button
-        android:id="@+id/btn_mins"
+        android:id="@+id/btn_minus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
